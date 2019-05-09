@@ -1,1 +1,24 @@
+#mainPage{
+    background-color: rgb(255, 220, 61);
+}
 
+#lab2{
+    background-color: rgb(179, 179, 255)
+}
+
+#lab3{
+    background-color: rgb(149, 149, 255)
+
+}
+
+#lab4{
+    background-color: rgb(94, 94, 255)
+}
+
+h1{
+    margin: 1em;
+}
+
+h2, h4, p{
+ margin: .25in;
+}
