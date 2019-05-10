@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <head>
+    <head id="headder">
         <!-- BootStrap Link -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="style.css">
         <title>Daria-Kukharuk-Portfolio</title>
     </head>
-    <body id="mainPage">
+    <body id="Body">
         <h1>I'm Daria</h1>
         <!-- BootStrap NavBar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -25,34 +25,41 @@
                 </div>
             </div>
         </nav>
-        <h2>Home</h2>
+        <h2 id="home">Home</h2>
 
-        <h4>About me</h4>
-        <p id="about">This should be a paragraph about me</p>
+        <h4 id="aboutMe">About me</h4>
+        <p id="about">After studying life for 18 years I transferred to Brigham Young University. Now I study “copy-paste” (commonly known as CS) and dream of one day programing a rocket that doesn’t explode. I am currently enrolled in CS 260 [3cred], PHIL 201 [3cred] and planning a wedding [5cred]. I also love to cook and bake unicorn cakes. I got hooked on that after watching too many cooking shows.</p>
+        <img src="https://firebasestorage.googleapis.com/v0/b/cs260projects-e285c.appspot.com/o/IMG_4873.JPG?alt=media&token=a6206a6f-62f9-4595-a1e7-aba619cf4770" 
+         alt="me" height="300"></th>
+        
+        <h4 id="bulletPointList">Work Experience (Don't mock me for it)</h4>
 
-        <h4>bullet point list</h4>
+        <OL id="blist">
+            <LI>Babysitter, Brigham Young University Nursery 
+            <UL>
+                <LI>Spent 4-5 hours each day preventing my fiancée and three roommates from dying or doing anything stupid.
+                <LI>Increased cohesion between dependents by implementing “spill the tea” time each evening.
+            </UL>
+            <LI>Sanity Assistant, Family Home
+            <UL>
+                <LI>Successfully maintained my mother’s sanity by helping with cooking and chores around the house.
+                <LI>Demonstrated to four other inferior siblings how to be a “perfect” child.
+            </UL> 
+        </OL>
 
-        <ul>
-            <li>a</li>
-            <li>b</li>
-            <li>c</li>
-        </ul>
 
-        <h4>numbered list</h4>
-        <ol>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-        </ol>
-
-        <h2>Learn more about me</h2>
+        <h2 id="learnMore">Learn more</h2>
         <h4>
-            <a href="https://www.instagram.com/daria_kukharuk/">Instagram</a>
+            <img src="https://firebasestorage.googleapis.com/v0/b/cs260projects-e285c.appspot.com/o/download.png?alt=media&token=87cef2a2-3f8c-4d42-8aef-c7080d2cb4de" 
+             width="100" height="100" onclick="window.location.href = 'https://www.linkedin.com/in/daria-kukharuk-4a468b185/'" />
+            <img src="https://firebasestorage.googleapis.com/v0/b/cs260projects-e285c.appspot.com/o/download-1.png?alt=media&token=fa7bc746-efe1-4e90-879e-8605fb99cea5" 
+             width="100" height="100" onclick="window.location.href = 'https://github.com/kukharukdaria'" />
+            
         </h4>
-        <h2>See my growing projects:</h2>
         <h4>
-            <a href="https://github.com/kukharukdaria">GitHub</a>
         </h4>
+
+        <button id="wowFactor" onclick="wowMe(0)">Click this to be Wowed!</button>
 
     </body>
 

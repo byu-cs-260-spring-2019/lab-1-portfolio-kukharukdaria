@@ -1,5 +1,39 @@
-#mainPage{
-    background-color: rgb(255, 220, 61);
+h1{
+    background-color: rgba(253, 0, 55, 0.733);
+}
+
+
+
+#home{
+    background-color: rgba(248, 85, 112, 0.418);
+}
+
+#aboutMe{
+    background-color: rgba(34, 34, 252, 0.507);
+}
+
+#about{
+    background-color: rgba(133, 133, 255, 0.507);
+}
+
+#bulletPointList{
+    background-color: rgba(0, 128, 0, 0.685);
+}
+
+#blist{
+    background-color: rgba(0, 128, 0, 0.301);
+}
+
+#numberedList{
+    background-color: rgba(204, 124, 3, 0.753);
+}
+
+#nlist{
+    background-color: rgba(204, 124, 3, 0.349);
+}
+
+#learnMore{
+    background-color: rgba(204, 3, 160, 0.527);
 }
 
 #lab2{
@@ -16,9 +50,21 @@
 }
 
 h1{
-    margin: 1em;
+    margin: .25in;
 }
 
-h2, h4, p{
+h2, h4, p, ul, ol{
  margin: .25in;
+}
+
+img{
+    padding: .2in;
+}
+
+button{
+    margin: .5in;
+}
+
+#dentMe{
+    margin-left: .5in;
 }
